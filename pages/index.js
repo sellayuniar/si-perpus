@@ -129,7 +129,7 @@ export default function Home() {
                             className="hover: mr-2 h-8 w-8 cursor-pointer
                     hover:text-sky-500"
                             onClick={() => {
-                              updateBookHandler();
+                              updateBookHandler(data.id);
                             }}
                           >
                             <IkonUbah />
